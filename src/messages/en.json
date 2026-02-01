@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "title": "Claude Code Cheat Sheet",
+    "description": "Interactive reference for Claude Code - commands, workflows, and tips."
+  },
+  "nav": {
+    "home": "Home",
+    "gettingStarted": "Getting Started",
+    "cliReference": "CLI Reference",
+    "configuration": "Configuration",
+    "advanced": "Advanced",
+    "bestPractices": "Best Practices",
+    "reference": "Reference"
+  },
+  "common": {
+    "search": "Search",
+    "searchPlaceholder": "Search commands, flags, shortcuts...",
+    "searchHint": "Open search",
+    "copyCode": "Copy",
+    "copied": "Copied!",
+    "language": "Language",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "filterAll": "All",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "scrollToTop": "Back to top",
+    "noResults": "No results found.",
+    "tableOfContents": "On this page",
+    "nextSection": "Next section",
+    "prevSection": "Previous section",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "home": {
+    "heroTitle": "Claude Code Cheat Sheet",
+    "heroSubtitle": "Your interactive reference for Claude Code.",
+    "heroDescription": "All commands, configurations, and best practices - with interactive examples, terminal demos, and quizzes.",
+    "heroCta": "Get Started",
+    "features": {
+      "terminal": "Terminal Demos",
+      "terminalDesc": "Interactive terminal simulations to try out.",
+      "search": "Quick Search",
+      "searchDesc": "Find any command instantly with Cmd+K.",
+      "quiz": "Quizzes",
+      "quizDesc": "Test your knowledge with interactive exercises.",
+      "bilingual": "Bilingual",
+      "bilingualDesc": "Fully available in German and English."
+    }
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "of",
+    "checkAnswer": "Check answer",
+    "nextQuestion": "Next question",
+    "correct": "Correct!",
+    "incorrect": "Incorrect.",
+    "explanation": "Explanation",
+    "score": "Score",
+    "restart": "Restart quiz",
+    "completed": "Quiz completed!"
+  },
+  "terminal": {
+    "play": "Play",
+    "pause": "Pause",
+    "restart": "Restart",
+    "autoplay": "Autoplay"
+  },
+  "footer": {
+    "builtWith": "Built with Next.js and Claude Code",
+    "sources": "Based on official Anthropic documentation",
+    "github": "GitHub"
+  }
+}

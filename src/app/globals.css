@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-terminal-bg text-terminal-white font-mono antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-terminal-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-terminal-border rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-terminal-gray;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(0, 255, 65, 0.2);
+    color: #e6edf3;
+  }
+}
+
+@layer components {
+  /* Scanline overlay effect */
+  .scanlines::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Blinking cursor */
+  .cursor-blink::after {
+    content: '_';
+    @apply animate-typing-cursor text-terminal-green;
+  }
+
+  /* Green glow text */
+  .text-glow {
+    text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
+  }
+
+  /* Focus ring terminal themed */
+  .focus-terminal {
+    @apply outline-none ring-2 ring-terminal-green/50 ring-offset-2 ring-offset-terminal-bg;
+  }
+
+  /* Terminal prompt style */
+  .terminal-prompt::before {
+    content: '$ ';
+    @apply text-terminal-green font-bold;
+  }
+}
+
+@layer utilities {
+  /* Glow border utility */
+  .glow-border {
+    box-shadow: 0 0 10px rgba(0, 255, 65, 0.15), inset 0 0 10px rgba(0, 255, 65, 0.05);
+  }
+
+  .glow-border-strong {
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.25), inset 0 0 20px rgba(0, 255, 65, 0.1);
+  }
+}

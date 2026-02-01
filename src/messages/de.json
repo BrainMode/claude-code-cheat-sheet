@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "title": "Claude Code Cheat Sheet",
+    "description": "Interaktives Nachschlagewerk fuer Claude Code - Befehle, Workflows und Tipps."
+  },
+  "nav": {
+    "home": "Start",
+    "gettingStarted": "Erste Schritte",
+    "cliReference": "CLI-Referenz",
+    "configuration": "Konfiguration",
+    "advanced": "Erweitert",
+    "bestPractices": "Best Practices",
+    "reference": "Referenz"
+  },
+  "common": {
+    "search": "Suchen",
+    "searchPlaceholder": "Befehle, Flags, Shortcuts suchen...",
+    "searchHint": "Suche oeffnen",
+    "copyCode": "Kopieren",
+    "copied": "Kopiert!",
+    "language": "Sprache",
+    "beginner": "Einsteiger",
+    "intermediate": "Fortgeschritten",
+    "advanced": "Experte",
+    "filterAll": "Alle",
+    "expandAll": "Alle aufklappen",
+    "collapseAll": "Alle zuklappen",
+    "scrollToTop": "Nach oben",
+    "noResults": "Keine Ergebnisse gefunden.",
+    "tableOfContents": "Auf dieser Seite",
+    "nextSection": "Naechster Abschnitt",
+    "prevSection": "Vorheriger Abschnitt",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen"
+  },
+  "home": {
+    "heroTitle": "Claude Code Cheat Sheet",
+    "heroSubtitle": "Dein interaktives Nachschlagewerk fuer Claude Code.",
+    "heroDescription": "Alle Befehle, Konfigurationen und Best Practices - mit interaktiven Beispielen, Terminal-Demos und Quizzes.",
+    "heroCta": "Loslegen",
+    "features": {
+      "terminal": "Terminal-Demos",
+      "terminalDesc": "Interaktive Terminal-Simulationen zum Ausprobieren.",
+      "search": "Schnellsuche",
+      "searchDesc": "Finde jeden Befehl sofort mit Cmd+K.",
+      "quiz": "Quizzes",
+      "quizDesc": "Teste dein Wissen mit interaktiven Uebungen.",
+      "bilingual": "Zweisprachig",
+      "bilingualDesc": "Komplett in Deutsch und Englisch verfuegbar."
+    }
+  },
+  "quiz": {
+    "question": "Frage",
+    "of": "von",
+    "checkAnswer": "Antwort pruefen",
+    "nextQuestion": "Naechste Frage",
+    "correct": "Richtig!",
+    "incorrect": "Leider falsch.",
+    "explanation": "Erklaerung",
+    "score": "Ergebnis",
+    "restart": "Quiz wiederholen",
+    "completed": "Quiz abgeschlossen!"
+  },
+  "terminal": {
+    "play": "Abspielen",
+    "pause": "Pausieren",
+    "restart": "Neustarten",
+    "autoplay": "Autoplay"
+  },
+  "footer": {
+    "builtWith": "Erstellt mit Next.js und Claude Code",
+    "sources": "Basierend auf offizieller Anthropic-Dokumentation",
+    "github": "GitHub"
+  }
+}

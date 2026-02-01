@@ -1,0 +1,53 @@
+{
+  "name": "claude-code-cheat-sheet",
+  "version": "1.0.0",
+  "description": "Interactive, bilingual (DE/EN) cheat sheet for Claude Code — Anthropic's agentic coding tool. Terminal-themed UI with fuzzy search, quizzes, and live demos.",
+  "keywords": [
+    "claude-code",
+    "cheat-sheet",
+    "cli-reference",
+    "anthropic",
+    "claude",
+    "coding-assistant",
+    "next.js",
+    "typescript",
+    "i18n",
+    "terminal-ui"
+  ],
+  "author": "Denny Weber",
+  "license": "MIT",
+  "homepage": "https://brainmode.github.io/claude-code-cheat-sheet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrainMode/claude-code-cheat-sheet.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cmdk": "^1.0.4",
+    "framer-motion": "^11.15.0",
+    "fuse.js": "^7.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "^16.1.6",
+    "next-intl": "^4.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shiki": "^1.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.21",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.0"
+  }
+}
